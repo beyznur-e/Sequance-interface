@@ -1,0 +1,5 @@
+C:\Users\PC\Desktop\kodlar\ornek1\ornek1\obj\Debug\ornek1.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\kodlar\ornek1\ornek1\obj\Debug\ornek1.Form1.resources
+C:\Users\PC\Desktop\kodlar\ornek1\ornek1\obj\Debug\ornek1.Properties.Resources.resources
+C:\Users\PC\Desktop\kodlar\ornek1\ornek1\obj\Debug\ornek1.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\kodlar\ornek1\ornek1\obj\Debug\ornek1.csproj.CoreCompileInputs.cache

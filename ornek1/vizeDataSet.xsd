@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vizeDataSet" targetNamespace="http://tempuri.org/vizeDataSet.xsd" xmlns:mstns="http://tempuri.org/vizeDataSet.xsd" xmlns="http://tempuri.org/vizeDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="vizeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="vizeConnectionString (Settings)" PropertyReference="ApplicationSettings.ornek1.Properties.Settings.GlobalReference.Default.vizeConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblDizilerTableAdapter" GeneratorDataComponentClassName="tblDizilerTableAdapter" Name="tblDiziler" UserDataComponentName="tblDizilerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vizeConnectionString (Settings)" DbObjectName="tblDiziler" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, ad, ilkYayin, sonYayin, sezon, bolum, sure FROM tblDiziler</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vizeDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="vizeDataSet" msprop:Generator_DataSetName="vizeDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDiziler" msprop:Generator_RowEvHandlerName="tblDizilerRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDizilerRowDeleted" msprop:Generator_RowDeletingName="tblDizilerRowDeleting" msprop:Generator_RowEvArgName="tblDizilerRowChangeEvent" msprop:Generator_TablePropName="tblDiziler" msprop:Generator_RowChangedName="tblDizilerRowChanged" msprop:Generator_RowChangingName="tblDizilerRowChanging" msprop:Generator_TableClassName="tblDizilerDataTable" msprop:Generator_RowClassName="tblDizilerRow" msprop:Generator_TableVarName="tabletblDiziler" msprop:Generator_UserTableName="tblDiziler">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
